@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034F05E42B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		034F05E92B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */; };
+		034F05EB2B98DA3700B3C1B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05EA2B98DA3700B3C1B5 /* ContentView.swift */; };
+		034F05ED2B98DA3800B3C1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */; };
+		034F05F02B98DA3800B3C1B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F05EF2B98DA3800B3C1B5 /* Preview Assets.xcassets */; };
+		034F05FA2B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05F92B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppTests.swift */; };
+		034F06042B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F06032B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITests.swift */; };
+		034F06062B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F06052B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034F05E52B98DA3700B3C1B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034F05D72B98DA3700B3C1B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034F05E22B98DA3700B3C1B5;
+			remoteInfo = "Linecom Wear BMI Watch App";
+		};
+		034F05F62B98DA3800B3C1B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034F05D72B98DA3700B3C1B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034F05E22B98DA3700B3C1B5;
+			remoteInfo = "Linecom Wear BMI Watch App";
+		};
+		034F06002B98DA3800B3C1B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034F05D72B98DA3700B3C1B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034F05E22B98DA3700B3C1B5;
+			remoteInfo = "Linecom Wear BMI Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		034F060C2B98DA3800B3C1B5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				034F05E42B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		034F05DD2B98DA3700B3C1B5 /* Linecom Wear BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linecom Wear BMI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linecom Wear BMI Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linecom_Wear_BMIApp.swift; sourceTree = "<group>"; };
+		034F05EA2B98DA3700B3C1B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034F05EF2B98DA3800B3C1B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		034F05F52B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linecom Wear BMI Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F05F92B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linecom_Wear_BMI_Watch_AppTests.swift; sourceTree = "<group>"; };
+		034F05FF2B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linecom Wear BMI Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F06032B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linecom_Wear_BMI_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		034F06052B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linecom_Wear_BMI_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034F05E02B98DA3700B3C1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F05F22B98DA3800B3C1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F05FC2B98DA3800B3C1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034F05D62B98DA3700B3C1B5 = {
+			isa = PBXGroup;
+			children = (
+				034F05E72B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */,
+				034F05F82B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests */,
+				034F06022B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests */,
+				034F05DE2B98DA3700B3C1B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034F05DE2B98DA3700B3C1B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034F05DD2B98DA3700B3C1B5 /* Linecom Wear BMI.app */,
+				034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */,
+				034F05F52B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests.xctest */,
+				034F05FF2B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034F05E72B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */,
+				034F05EA2B98DA3700B3C1B5 /* ContentView.swift */,
+				034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */,
+				034F05EE2B98DA3800B3C1B5 /* Preview Content */,
+			);
+			path = "Linecom Wear BMI Watch App";
+			sourceTree = "<group>";
+		};
+		034F05EE2B98DA3800B3C1B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				034F05EF2B98DA3800B3C1B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		034F05F82B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				034F05F92B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppTests.swift */,
+			);
+			path = "Linecom Wear BMI Watch AppTests";
+			sourceTree = "<group>";
+		};
+		034F06022B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				034F06032B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITests.swift */,
+				034F06052B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Linecom Wear BMI Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034F05DC2B98DA3700B3C1B5 /* Linecom Wear BMI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F060D2B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI" */;
+			buildPhases = (
+				034F05DB2B98DA3700B3C1B5 /* Resources */,
+				034F060C2B98DA3800B3C1B5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034F05E62B98DA3700B3C1B5 /* PBXTargetDependency */,
+			);
+			name = "Linecom Wear BMI";
+			productName = "Linecom Wear BMI";
+			productReference = 034F05DD2B98DA3700B3C1B5 /* Linecom Wear BMI.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		034F05E22B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F06092B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI Watch App" */;
+			buildPhases = (
+				034F05DF2B98DA3700B3C1B5 /* Sources */,
+				034F05E02B98DA3700B3C1B5 /* Frameworks */,
+				034F05E12B98DA3700B3C1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Linecom Wear BMI Watch App";
+			productName = "Linecom Wear BMI Watch App";
+			productReference = 034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034F05F42B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F06102B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI Watch AppTests" */;
+			buildPhases = (
+				034F05F12B98DA3800B3C1B5 /* Sources */,
+				034F05F22B98DA3800B3C1B5 /* Frameworks */,
+				034F05F32B98DA3800B3C1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034F05F72B98DA3800B3C1B5 /* PBXTargetDependency */,
+			);
+			name = "Linecom Wear BMI Watch AppTests";
+			productName = "Linecom Wear BMI Watch AppTests";
+			productReference = 034F05F52B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		034F05FE2B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F06132B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI Watch AppUITests" */;
+			buildPhases = (
+				034F05FB2B98DA3800B3C1B5 /* Sources */,
+				034F05FC2B98DA3800B3C1B5 /* Frameworks */,
+				034F05FD2B98DA3800B3C1B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034F06012B98DA3800B3C1B5 /* PBXTargetDependency */,
+			);
+			name = "Linecom Wear BMI Watch AppUITests";
+			productName = "Linecom Wear BMI Watch AppUITests";
+			productReference = 034F05FF2B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034F05D72B98DA3700B3C1B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					034F05DC2B98DA3700B3C1B5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					034F05E22B98DA3700B3C1B5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					034F05F42B98DA3800B3C1B5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 034F05E22B98DA3700B3C1B5;
+					};
+					034F05FE2B98DA3800B3C1B5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 034F05E22B98DA3700B3C1B5;
+					};
+				};
+			};
+			buildConfigurationList = 034F05DA2B98DA3700B3C1B5 /* Build configuration list for PBXProject "Linecom Wear BMI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034F05D62B98DA3700B3C1B5;
+			productRefGroup = 034F05DE2B98DA3700B3C1B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034F05DC2B98DA3700B3C1B5 /* Linecom Wear BMI */,
+				034F05E22B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */,
+				034F05F42B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests */,
+				034F05FE2B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034F05DB2B98DA3700B3C1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F05E12B98DA3700B3C1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F05F02B98DA3800B3C1B5 /* Preview Assets.xcassets in Resources */,
+				034F05ED2B98DA3800B3C1B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F05F32B98DA3800B3C1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F05FD2B98DA3800B3C1B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034F05DF2B98DA3700B3C1B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F05EB2B98DA3700B3C1B5 /* ContentView.swift in Sources */,
+				034F05E92B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F05F12B98DA3800B3C1B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F05FA2B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F05FB2B98DA3800B3C1B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F06062B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITestsLaunchTests.swift in Sources */,
+				034F06042B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034F05E62B98DA3700B3C1B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034F05E22B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */;
+			targetProxy = 034F05E52B98DA3700B3C1B5 /* PBXContainerItemProxy */;
+		};
+		034F05F72B98DA3800B3C1B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034F05E22B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */;
+			targetProxy = 034F05F62B98DA3800B3C1B5 /* PBXContainerItemProxy */;
+		};
+		034F06012B98DA3800B3C1B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034F05E22B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */;
+			targetProxy = 034F06002B98DA3800B3C1B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034F06072B98DA3800B3C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		034F06082B98DA3800B3C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		034F060A2B98DA3800B3C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Linecom Wear BMI Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		034F060B2B98DA3800B3C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Linecom Wear BMI Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		034F060E2B98DA3800B3C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		034F060F2B98DA3800B3C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034F06112B98DA3800B3C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linecom Wear BMI Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Linecom Wear BMI Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		034F06122B98DA3800B3C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linecom Wear BMI Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Linecom Wear BMI Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		034F06142B98DA3800B3C1B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Linecom Wear BMI Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		034F06152B98DA3800B3C1B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B38QUJMY47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linecom.Linecom-Wear-BMI-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Linecom Wear BMI Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034F05DA2B98DA3700B3C1B5 /* Build configuration list for PBXProject "Linecom Wear BMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F06072B98DA3800B3C1B5 /* Debug */,
+				034F06082B98DA3800B3C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F06092B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F060A2B98DA3800B3C1B5 /* Debug */,
+				034F060B2B98DA3800B3C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F060D2B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F060E2B98DA3800B3C1B5 /* Debug */,
+				034F060F2B98DA3800B3C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F06102B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F06112B98DA3800B3C1B5 /* Debug */,
+				034F06122B98DA3800B3C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F06132B98DA3800B3C1B5 /* Build configuration list for PBXNativeTarget "Linecom Wear BMI Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F06142B98DA3800B3C1B5 /* Debug */,
+				034F06152B98DA3800B3C1B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034F05D72B98DA3700B3C1B5 /* Project object */;
+}
