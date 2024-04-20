@@ -26,13 +26,16 @@ struct AboutView: View{
     var body: some View {
         VStack{
             HStack{
-                Image("AppIcon")
+                Image("abouticon")
+                    .resizable()
                     .scaledToFit()
+                    .mask{Circle()}
                 VStack{
                     Text("澪空软件")
                     Text("BMI计算器")
-                }
+                }.padding()
             }
+            Text("Developed by Linecom").padding()
         }
     }
 }
