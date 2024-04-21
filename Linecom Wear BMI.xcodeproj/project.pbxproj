@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		034316A02BD4389000C51EF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343169F2BD4389000C51EF5 /* SettingsView.swift */; };
 		034316A22BD438C300C51EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034316A12BD438C300C51EF5 /* ContentView.swift */; };
-		034F05E42B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		034F05E42B98DA3700B3C1B5 /* 澪空软件BMI计算器.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 034F05E32B98DA3700B3C1B5 /* 澪空软件BMI计算器.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		034F05E92B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */; };
 		034F05EB2B98DA3700B3C1B5 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05EA2B98DA3700B3C1B5 /* CalcView.swift */; };
 		034F05ED2B98DA3800B3C1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */; };
@@ -50,7 +50,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				034F05E42B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app in Embed Watch Content */,
+				034F05E42B98DA3700B3C1B5 /* 澪空软件BMI计算器.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 		0343169F2BD4389000C51EF5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		034316A12BD438C300C51EF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		034F05DD2B98DA3700B3C1B5 /* Linecom Wear BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linecom Wear BMI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linecom Wear BMI Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F05E32B98DA3700B3C1B5 /* 澪空软件BMI计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "澪空软件BMI计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linecom_Wear_BMIApp.swift; sourceTree = "<group>"; };
 		034F05EA2B98DA3700B3C1B5 /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
 		034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				034F05DD2B98DA3700B3C1B5 /* Linecom Wear BMI.app */,
-				034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */,
+				034F05E32B98DA3700B3C1B5 /* 澪空软件BMI计算器.app */,
 				034F05F52B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests.xctest */,
 				034F05FF2B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests.xctest */,
 			);
@@ -191,7 +191,7 @@
 			);
 			name = "Linecom Wear BMI Watch App";
 			productName = "Linecom Wear BMI Watch App";
-			productReference = 034F05E32B98DA3700B3C1B5 /* Linecom Wear BMI Watch App.app */;
+			productReference = 034F05E32B98DA3700B3C1B5 /* 澪空软件BMI计算器.app */;
 			productType = "com.apple.product-type.application";
 		};
 		034F05F42B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests */ = {
@@ -485,7 +485,6 @@
 				DEVELOPMENT_TEAM = B38QUJMY47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,7 +493,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearbmi.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "澪空软件BMI计算器";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -515,7 +514,6 @@
 				DEVELOPMENT_TEAM = B38QUJMY47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -524,7 +522,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearbmi.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "澪空软件BMI计算器";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
