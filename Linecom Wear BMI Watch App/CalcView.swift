@@ -18,7 +18,7 @@ struct CalcView: View {
     @AppStorage("standard") var standard="cn"
     //@State var hs_index=0
     var body: some View {
-        NavigationStack{
+        NavigationView{
             List{
                 Section{
                     Picker("计量制度",selection: $select){
@@ -84,11 +84,13 @@ struct CalcView: View {
                         }
                     }
                 }
-                if !stred_result.isEmpty{
-                    Section{
-                        Text("您的BMI为: \(stred_result)")
-                        Text("评估结果为：\(health)")
-                   }
+                Section{
+                    if !stred_result.isEmpty{
+                        Section{
+                            Text("您的BMI为: \(stred_result)")
+                            Text("评估结果为：\(health)")
+                        }
+                    }
                 }
             }.navigationTitle("LWBMI")
         }
