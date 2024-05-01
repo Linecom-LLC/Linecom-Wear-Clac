@@ -11,7 +11,7 @@ import SwiftUI
 struct Linecom_Wear_BMI_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().navigationTitle("LWBMI")
+            ContentView().navigationTitle("LWC单位换算")
         }
     }
 }
