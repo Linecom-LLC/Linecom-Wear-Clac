@@ -500,7 +500,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearbmi.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearclac.watchkitapp;
 				PRODUCT_NAME = "澪空软件单位换算";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -529,7 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearbmi.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearclac.watchkitapp;
 				PRODUCT_NAME = "澪空软件单位换算";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -550,7 +550,7 @@
 				DEVELOPMENT_TEAM = B38QUJMY47;
 				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearbmi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearclac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -566,7 +566,7 @@
 				DEVELOPMENT_TEAM = B38QUJMY47;
 				INFOPLIST_KEY_CFBundleDisplayName = "Linecom Wear BMI";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearbmi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecom.wearclac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
