@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Linecom_Wear_BMI_Watch_AppUITestsLaunchTests: XCTestCase {
+final class Linecom_Wear_Clac_Watch_AppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

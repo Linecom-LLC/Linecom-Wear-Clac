@@ -10,7 +10,7 @@
 		034316A02BD4389000C51EF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343169F2BD4389000C51EF5 /* SettingsView.swift */; };
 		034316A22BD438C300C51EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034316A12BD438C300C51EF5 /* ContentView.swift */; };
 		034F05E42B98DA3700B3C1B5 /* 澪空软件单位换算.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 034F05E32B98DA3700B3C1B5 /* 澪空软件单位换算.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		034F05E92B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */; };
+		034F05E92B98DA3700B3C1B5 /* Linecom_Wear_ClacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05E82B98DA3700B3C1B5 /* Linecom_Wear_ClacApp.swift */; };
 		034F05EB2B98DA3700B3C1B5 /* BMICalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F05EA2B98DA3700B3C1B5 /* BMICalc.swift */; };
 		034F05ED2B98DA3800B3C1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */; };
 		034F05F02B98DA3800B3C1B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F05EF2B98DA3800B3C1B5 /* Preview Assets.xcassets */; };
@@ -64,7 +64,7 @@
 		034316A12BD438C300C51EF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		034F05DD2B98DA3700B3C1B5 /* Linecom Wear Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linecom Wear Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F05E32B98DA3700B3C1B5 /* 澪空软件单位换算.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "澪空软件单位换算.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linecom_Wear_BMIApp.swift; sourceTree = "<group>"; };
+		034F05E82B98DA3700B3C1B5 /* Linecom_Wear_ClacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linecom_Wear_ClacApp.swift; sourceTree = "<group>"; };
 		034F05EA2B98DA3700B3C1B5 /* BMICalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalc.swift; sourceTree = "<group>"; };
 		034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034F05EF2B98DA3800B3C1B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -105,9 +105,9 @@
 		034F05D62B98DA3700B3C1B5 = {
 			isa = PBXGroup;
 			children = (
-				034F05E72B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */,
-				034F05F82B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests */,
-				034F06022B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests */,
+				034F05E72B98DA3700B3C1B5 /* Linecom Wear Clac Watch App */,
+				034F05F82B98DA3800B3C1B5 /* Linecom Wear Clac Watch AppTests */,
+				034F06022B98DA3800B3C1B5 /* Linecom Wear Clac Watch AppUITests */,
 				034F05DE2B98DA3700B3C1B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,10 +123,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		034F05E72B98DA3700B3C1B5 /* Linecom Wear BMI Watch App */ = {
+		034F05E72B98DA3700B3C1B5 /* Linecom Wear Clac Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				034F05E82B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift */,
+				034F05E82B98DA3700B3C1B5 /* Linecom_Wear_ClacApp.swift */,
 				034F05EA2B98DA3700B3C1B5 /* BMICalc.swift */,
 				034316A12BD438C300C51EF5 /* ContentView.swift */,
 				0374348A2BE2980900ACDC5D /* CalcView.swift */,
@@ -135,7 +135,7 @@
 				034F05EC2B98DA3800B3C1B5 /* Assets.xcassets */,
 				034F05EE2B98DA3800B3C1B5 /* Preview Content */,
 			);
-			path = "Linecom Wear BMI Watch App";
+			path = "Linecom Wear Clac Watch App";
 			sourceTree = "<group>";
 		};
 		034F05EE2B98DA3800B3C1B5 /* Preview Content */ = {
@@ -146,21 +146,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		034F05F82B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppTests */ = {
+		034F05F82B98DA3800B3C1B5 /* Linecom Wear Clac Watch AppTests */ = {
 			isa = PBXGroup;
 			children = (
 				034F05F92B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppTests.swift */,
 			);
-			path = "Linecom Wear BMI Watch AppTests";
+			path = "Linecom Wear Clac Watch AppTests";
 			sourceTree = "<group>";
 		};
-		034F06022B98DA3800B3C1B5 /* Linecom Wear BMI Watch AppUITests */ = {
+		034F06022B98DA3800B3C1B5 /* Linecom Wear Clac Watch AppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				034F06032B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITests.swift */,
 				034F06052B98DA3800B3C1B5 /* Linecom_Wear_BMI_Watch_AppUITestsLaunchTests.swift */,
 			);
-			path = "Linecom Wear BMI Watch AppUITests";
+			path = "Linecom Wear Clac Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,7 +326,7 @@
 				034316A22BD438C300C51EF5 /* ContentView.swift in Sources */,
 				0374348B2BE2980900ACDC5D /* CalcView.swift in Sources */,
 				0374348D2BE2985B00ACDC5D /* AllCalcs.swift in Sources */,
-				034F05E92B98DA3700B3C1B5 /* Linecom_Wear_BMIApp.swift in Sources */,
+				034F05E92B98DA3700B3C1B5 /* Linecom_Wear_ClacApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

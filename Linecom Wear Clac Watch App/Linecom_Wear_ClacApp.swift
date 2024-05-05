@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Linecom_Wear_BMI_Watch_AppApp: App {
+struct Linecom_Wear_Clac_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView().navigationTitle("LWC单位换算")
