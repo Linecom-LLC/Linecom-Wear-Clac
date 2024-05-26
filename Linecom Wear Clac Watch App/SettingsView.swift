@@ -31,7 +31,7 @@ struct AboutView: View{
                 VStack{
                     Text("澪空软件")
                     Text("单位换算")
-                    Text("1.0.0")
+                    Text("1.0.1")
                 }.padding()
             }
             Text("Developed by Linecom").padding()
