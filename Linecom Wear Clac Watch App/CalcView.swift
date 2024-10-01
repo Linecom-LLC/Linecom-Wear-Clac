@@ -22,22 +22,6 @@ struct CalcView: View {
                 Section{
                     NavigationLink(destination:{AboutView()},label:{HStack:do {Image(systemName: "info.circle");Text("关于")}})
                 }
-                Section {
-                    Button(action: {
-                        isQQPresent = true
-                    }, label: {
-                        Text("加入我们的QQ群组")
-                    })
-                    .sheet(isPresented: $isQQPresent, content: {
-                        VStack {
-                            Text("779379141")
-                            Image("QQQR")
-                                .resizable()
-                                .scaledToFit()
-                        }
-                        .navigationTitle("Linecom Community")
-                    })
-                }
             }.navigationTitle("LWC单位换算")
         }
     }
